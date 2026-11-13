@@ -15,7 +15,7 @@ We're 3 people building 1 website. To keep it from turning into chaos:
 
 - Everyone gets **their own pages**, so no one edits the same file at the same time.
 - Everyone works on **their own branch**, which is a private copy of the project.
-- Sammy joins everything together. Nobody touches `main` directly.
+- Saman joins everything together. Nobody touches `main` directly.
 
 Think of it like a group assignment where everyone writes their own chapter and one person staples the book together.
 
@@ -25,15 +25,15 @@ Think of it like a group assignment where everyone writes their own chapter and 
 
 | Person | Pages |
 |---|---|
-| Sammy (coordinator) | `index.html`, `about.html` + shared files |
-| [Name 1] | `call-for-papers.html`, `dates-registration.html` |
-| [Name 2] | `people.html`, `contact.html` |
+| Saman | `index.html`, `about.html` + shared files |
+| Rathi | `call-for-papers.html`, `dates-registration.html` |
+| Aliya | `people.html`, `contact.html` |
 
 Each of you can also create **one CSS file for your own pages**, like `css/people.css`, and link it in your page's `<head>`.
 
 ---
 
-## 🔒 Hands off (Sammy only)
+## 🔒 Hands off (Saman only)
 
 These files make the whole site look the same. If one changes, every page changes.
 
@@ -42,7 +42,7 @@ These files make the whole site look the same. If one changes, every page change
 - `template.html`
 - the **header** and **footer** on every page
 
-Need a new style or a menu change? **Message Sammy.** Don't edit these yourself.
+Need a new style or a menu change? **Message Saman.** Don't edit these yourself.
 
 ---
 
@@ -76,7 +76,7 @@ Example:
 - File names: **lowercase, no spaces, use dashes** → `keynote-speaker.jpg` ✅  `Keynote Speaker (1).JPG` ❌
 - Images go in the `img/` folder. Keep each one **under 500 KB** so the site loads fast on phones.
 - Add `alt` text to every image: `<img src="img/name.jpg" alt="Dr. Name">`
-- **Don't invent content.** Use only what Sammy gives you. Missing something? Ask.
+- **Don't invent content.** Use only what Saman gives you. Missing something? Ask.
 
 ---
 
@@ -122,7 +122,7 @@ git push -u origin yourname-pages
 1. Go to the repo on GitHub.
 2. Click the yellow **"Compare and pull request"** banner (or **Pull requests → New**).
 3. Write one line about what's in it, then click **Create pull request**.
-4. Tell Sammy in the group chat. Sammy reviews and merges it.
+4. Tell Saman in the group chat. Saman reviews and merges it.
 
 ---
 
@@ -139,7 +139,7 @@ git push -u origin yourname-pages
 
 ## 🆘 Stuck?
 
-- Merge conflict, weird error, or something looks broken? **Screenshot it and message Sammy.** Don't try random fixes, because they can make it worse.
+- Merge conflict, weird error, or something looks broken? **Screenshot it and message Saman.** Don't try random fixes, because they can make it worse.
 - Need to work live together? Use **VS Code Live Share**.
 
 ---
